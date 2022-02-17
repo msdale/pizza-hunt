@@ -151,7 +151,8 @@ function handleNewReplySubmit(event) {
 }
 
 $backBtn.addEventListener('click', function () {
-  window.history.back();
+  //window.history.back();
+  window.location.replace('/');
 });
 
 $newCommentForm.addEventListener('submit', handleNewCommentSubmit);

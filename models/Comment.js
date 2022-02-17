@@ -20,6 +20,7 @@ const ReplySchema = new Schema(
       get: createdAtVal => dateFormat(createdAtVal)
     }
   },
+  { _id: false},
   {
     toJSON: {
       getters: true
